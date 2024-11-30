@@ -1,0 +1,14 @@
+Index: app.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/app.py b/app.py
+--- a/app.py	
++++ b/app.py	(date 1732555969360)
+@@ -2,4 +2,4 @@
+ sales=[150000,60000,400000,200000]
+ total=sum(sales)
+ 
+-print(f"The total sales are Ugx{total}")
++print(f"The total sales are Ugx {total}")
